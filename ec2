@@ -1,0 +1,11 @@
+ec2
+INPUT: ami_id, ec2_type, ec2_pem, ec2_sg_id
+OUTPUT: ec2_public_ip_address
+
+Pem
+INPUT: key_name, key_path
+OUTPUT: ec2_pem
+
+SG
+INPUT: sg_name
+OUTPUT: sg_id
